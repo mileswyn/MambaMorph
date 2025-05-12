@@ -1,4 +1,7 @@
-# MambaMorph: a Mamba-based Framework for Medical MR-CT Deformable Registration
+# Mamba-based deformable medical image registration with an annotated brain MR-CT dataset
+
+## Abstract
+Deformable registration is essential in medical image analysis, especially for handling various multi- and mono-modal registration tasks in neuroimaging. Existing studies lack exploration of brain MR-CT registration, and face challenges in both accuracy and efficiency improvements of learning-based methods. To enlarge the practice of multi-modal registration in brain, we present SR-Reg, a new benchmark dataset comprising 180 volumetric paired MR-CT images and annotated anatomical regions. Building on this foundation, we introduce MambaMorph, a novel deformable registration network based on an efficient state space model Mamba for global feature learning, with a fine-grained feature extractor for low-level embedding. Experimental results demonstrate that MambaMorph surpasses advanced ConvNet-based and Transformer-based networks across several multi- and mono-modal tasks, showcasing impressive enhancements of efficacy and efficiency.
 
 # Tutorial
 Install Mamba via https://github.com/state-spaces/mamba
@@ -37,20 +40,16 @@ https://drive.google.com/file/d/1idT6rCKXry-Yc8GF-DBxEn6e32-pBiFF/view?usp=shari
 ### Data sample
 ![data-sample](https://github.com/Guo-Stone/MambaMorph/assets/77957555/f715aa06-0cf7-41b6-915c-e3ee98756f75)
 
-
-# Paper
-https://arxiv.org/abs/2401.13934
-
 # Citation
 
-@article{guo2024mambamorph,  
+@article{2025mambamorph,  
 
   title={MambaMorph: a Mamba-based Framework for Medical MR-CT Deformable Registration},  
 
-  author={Guo, Tao and Wang, Yinuo and Shu, Shihao and Chen, Diansheng and Tang, Zhouping and Meng, Cai and Bai, Xiangzhi},  
+  author={Yinuo Wang, Tao Guo, Weimin Yuan, Shihao Shu, Cai Meng, Xiangzhi Bai,},  
 
-  journal={arXiv preprint arXiv:2401.13934},  
+  journal={Computerized Medical Imaging and Graphics},  
 
-  year={2024}  
+  year={2025}  
 
 }
